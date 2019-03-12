@@ -1,6 +1,6 @@
 ﻿const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "!"; // البيرفكس حطها بين ال " اقترح تخليها زي ما هي
+var prefix = "1"; // البيرفكس حطها بين ال " اقترح تخليها زي ما هي
 
 client.on('ready', () => {
   console.log(`Welcome Bro ${client.user.tag}!`);  // لا تعدل شي هنا
